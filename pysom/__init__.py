@@ -1,12 +1,10 @@
 """
-pySOM
+TeX-Counter
 =====
 
-A package to propagate wavefunctions in time
-
+rerturns the word count of TeX files
 
 """
 
 
-from . import grid
-from . import propagation
+from . import texcounter
