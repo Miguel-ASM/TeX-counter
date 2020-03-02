@@ -18,23 +18,20 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="pySOM-Miguel-ASM",
-    version="0.0.4",
+    name="TeX-counter-Miguel-ASM",
+    version="0.0.0",
     author="Miguel Angel Simon Martinez",
     author_email="miguel.a.s.martinez@gmail.com",
-    description="Python implementation of Schrodinger equation split-step propagators",
+    description="Get word frequency from TeX files",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/Miguel-ASM/pysom",
+    url="https://github.com/Miguel-ASM/TeX-counter",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
+        "License :: OSI Approved :: to be determined",
         "Operating System :: OS Independent",
     ],
     python_requires='>={}'.format('.'.join(str(n) for n in min_version)),
-    install_requires=[
-            "numpy>=1.15",
-            "scipy>=1.3"
-    ],
+    install_requires=[],#To be determined yet
 )
